@@ -2,7 +2,7 @@ version: 0.0
 os: windows
 files:
   - source: .\install.txt
-    destination: c:\inetpub\CodeDeployExample
+    destination: c:\temp\CodeDeployExample
 hooks:
   BeforeInstall:
     - location: .\scripts\before-install.bat
